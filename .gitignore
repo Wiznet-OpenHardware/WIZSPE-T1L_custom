@@ -69,7 +69,6 @@
 
 # Miscellaneous
 *.tra
-*.bin
 *.fed
 *.l1p
 *.l2p

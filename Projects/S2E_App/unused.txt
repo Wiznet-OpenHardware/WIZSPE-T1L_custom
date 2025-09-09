@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, 5060960: Last Updated: Mon Sep 08 15:03:47 2025
+;#<FEEDBACK># ARM Linker, 5060960: Last Updated: Wed Sep 10 10:26:38 2025
 ;VERSION 0.2
 ;FILE configdata.o
 Mac_Conf <= IW 0
@@ -147,6 +147,7 @@ init_connection_status_io <= IW 0
 init_flowcontrol_dsr_pin <= IW 0
 init_flowcontrol_dtr_pin <= IW 0
 init_phylink_status_pin <= IW 0
+init_status_pin <= IW 0
 init_tcpconnection_status_pin <= IW 0
 init_user_io <= IW 0
 read_ADC <= IW 0
@@ -725,7 +726,6 @@ __asm___11_W7500x_it_c_bb8ca80c____REV16 <= IW 0
 __asm___11_W7500x_it_c_bb8ca80c____REVSH <= USED 0
 __asm___11_W7500x_it_c_bb8ca80c____REVSH <= IW 0
 ;FILE w7500x_miim.o
-YT8111_init <= USED 0
 YT8111_init <= IW 0
 __asm___13_W7500x_miim_c_link____REV16 <= USED 0
 __asm___13_W7500x_miim_c_link____REV16 <= IW 0
@@ -743,7 +743,6 @@ mdio_read_ext <= IW 0
 mdio_read_mmd <= USED 0
 mdio_read_mmd <= IW 0
 mdio_write <= IW 0
-mdio_write_ext <= USED 0
 mdio_write_ext <= IW 0
 mdio_write_mmd <= USED 0
 mdio_write_mmd <= IW 0

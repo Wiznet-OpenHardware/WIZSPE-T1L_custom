@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, 5060960: Last Updated: Mon Sep 08 15:03:20 2025
+;#<FEEDBACK># ARM Linker, 5060960: Last Updated: Wed Sep 10 10:26:20 2025
 ;VERSION 0.2
 ;FILE configdata.o
 Mac_Conf <= USED 0
@@ -490,7 +490,6 @@ __asm___11_W7500x_it_c_bb8ca80c____REV16 <= IW 0
 __asm___11_W7500x_it_c_bb8ca80c____REVSH <= USED 0
 __asm___11_W7500x_it_c_bb8ca80c____REVSH <= IW 0
 ;FILE w7500x_miim.o
-YT8111_init <= USED 0
 YT8111_init <= IW 0
 __asm___13_W7500x_miim_c_link____REV16 <= USED 0
 __asm___13_W7500x_miim_c_link____REV16 <= IW 0
@@ -508,7 +507,6 @@ mdio_read_ext <= IW 0
 mdio_read_mmd <= USED 0
 mdio_read_mmd <= IW 0
 mdio_write <= IW 0
-mdio_write_ext <= USED 0
 mdio_write_ext <= IW 0
 mdio_write_mmd <= USED 0
 mdio_write_mmd <= IW 0
